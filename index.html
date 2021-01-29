@@ -33,8 +33,8 @@
 
         <div class="booking-content">
             <h1>Cruise Queen</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                book.
+            <p>The RMS Titanic, a luxury steamship, sank in the early hours of April 15, 1912, off the coast of Newfoundland in the North Atlantic after sideswiping an iceberg during its maiden voyage. Of the 2,240 passengers and crew on board, more than
+                1,500 lost their lives in the disaster.
             </p>
         </div>
 
@@ -88,7 +88,7 @@
                         <p>Subtotal</p>
                     </div>
                     <div class="right ">
-                        <p id="total-amount">$500</p>
+                        <p id="total-amount">$0</p>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
                         <p>Charge 10% VAT</p>
                     </div>
                     <div class="right ">
-                        <p id="tax-amount">$50</p>
+                        <p id="tax-amount">$0</p>
                     </div>
                 </div>
                 <hr>
@@ -106,7 +106,7 @@
                         <h4>Total</h4>
                     </div>
                     <div class="right ">
-                        <p id="grand-amount">$550</p>
+                        <p id="grand-amount">$0</p>
                     </div>
                 </div>
             </div>
@@ -124,13 +124,6 @@
                 ticketNewCount = ticketCount - 1;
             }
             document.getElementById(type + '-count').value = ticketNewCount;
-            // let productTotal = 0;
-            // if (type == 'firstClass') {
-            //     productTotal = productNewCount * 150;
-            // }
-            // if (type == 'economyClass') {
-            //     productTotal = productNewCount * 100;
-            // }
             calculatePrice();
         }
 
