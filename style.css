@@ -112,15 +112,15 @@ a.active {
 }
 
 .inp-width {
-    min-width: 200px;
+    width: 100%;
 }
 
 .plus-minus-btn {
-    color: #0f1d63;
-    font-size: 50px;
-    padding: 2px;
-    margin: 5px 5px 0px 0px;
-    word-spacing: 1px;
+    color: black;
+    font-size: 10px;
+    padding: none;
+    margin-top: 45px;
+    word-spacing: none;
 }
 
 .booking-form .inputs {
